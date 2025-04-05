@@ -33,9 +33,8 @@ public abstract class PlayerUnlockMixin {
 	
 	//@Mixin(Builder.class)
 	//public abstract static class BuilderMixin {
-		@Inject(at = @At("TAIL"), method = "<clinit>")
-		private void BuilderPost(/*CallbackInfo ci, @Local LocalRef<PlayerUnlock.Builder> localRef,
-		*/String $$0, Optional<RegistryEntry<PlayerUnlock>> $$1, Optional<AssetInfo> $$2) {
+		@Inject(at = @At("TAIL"), method = "<init>")
+		private void BuilderPost(String $$0, Optional<RegistryEntry<PlayerUnlock>> $$1, Optional<AssetInfo> $$2, CallbackInfo ci) {
 			
 			//PlayerUnlock.Builder thisObject = (PlayerUnlock.Builder)(Object)this;
 			
