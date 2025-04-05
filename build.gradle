@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"modid" {
+		"craftminetweaks" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "com.chainswordcs.craftminetweaks.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"PlayerUnlockMixin"
+	"client": [
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

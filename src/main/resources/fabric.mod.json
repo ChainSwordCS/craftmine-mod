@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "craftminetweaks",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "craftmine tweaks",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"ChainSwordCS"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ChainSwordCS/craftminetweaks",
+		"sources": "https://github.com/ChainSwordCS/craftminetweaks"
 	},
 	"license": "ARR",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/craftminetweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.chainswordcs.craftminetweaks.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.chainswordcs.craftminetweaks.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"craftminetweaks.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "craftminetweaks.client.mixins.json",
 			"environment": "client"
 		}
 	],
@@ -35,7 +35,6 @@
 		"java": ">=21"
 	},
 	"suggests": {
-		"fabric-api": "*",
-		"another-mod": "*"
+		"fabric-api": "*"
 	}
 }

@@ -1,4 +1,4 @@
-package com.example;
+package com.chainswordcs.craftminetweaks;
 
 import net.fabricmc.api.ClientModInitializer;
 
